@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react"
+import React, { useContext, useEffect } from "react"
 import styled from "styled-components"
 import CookieConsent from "react-cookie-consent"
 import { useLocation } from "@reach/router"
