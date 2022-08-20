@@ -59,12 +59,20 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance, E-Mail
   socialMedia: [
     {
-      name: "Medium",
-      url: "https://medium.com/@hsnnkb.dev",
+      name: "Email",
+      url: "mailto:hsnnkb.dev@gmail.com",
     },
     {
       name: "Github",
       url: "https://github.com/hsnnkb-dev/gatsby-portfolio",
+    },
+    {
+      name: "Medium",
+      url: "https://medium.com/@hsnnkb.dev",
+    },
+    {
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in",
     },
     // {
     //   name: "Behance",
@@ -74,14 +82,6 @@ module.exports = {
     //   name: "Bitbucket",
     //   url: "https://github.com/hsnnkb-dev/gatsby-portfolio"
     // },
-    {
-      name: "Email",
-      url: "mailto:hsnnkb.dev@gmail.com",
-    },
-    {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in",
-    },
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -106,7 +106,7 @@ module.exports = {
     ],
     button: {
       useFileName: true,
-      name: "Resume",
+      name: "CV",
       fileName: "Hasan-Nakib-CV.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
